@@ -1,16 +1,17 @@
 import { Text, View } from "react-native";
-import ElementTile from "@/components/ElementTile"
-export default function Index() {
+
+export default function ElementTile() {
   return (
     <View
       style={{
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        width: 100,
+        height: 100,
       }}
     >
-      <ElementTile />
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>element.</Text>
     </View>
   );
 }
